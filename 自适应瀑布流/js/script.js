@@ -79,6 +79,7 @@ function getBoxs(parent,content){
     }
     return boxArr;
 }
+
 function getNextBoxLocation(boxs,cols){
     var boxHeights = [];
     for(var i=0;i<boxs.length;i++){
@@ -100,6 +101,7 @@ function getNextBoxLocation(boxs,cols){
        
     }    
 }
+
 function getMinHeightBoxIndex(boxHeights,minHeight){
     for(var i=0;i<boxHeights.length;i++){
         if(boxHeights[i] == minHeight){
